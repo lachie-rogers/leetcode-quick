@@ -12,8 +12,8 @@ class Solution {
                 j++;
                 max = Math.max(hash_set.size(),max);
             } else{
-                i = j;
-                j++;
+                hash_set.remove(s.charAt(i));
+                i++;
             }
             
         }
